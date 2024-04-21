@@ -1,0 +1,40 @@
+
+ .container1 h1 {
+  text-align: left;
+  font-size: 40px ;
+    color: #120e4b;
+}
+
+
+
+  .container1 {
+    width: 100%;
+    margin: 20px auto;
+    
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    
+}
+.area{
+    margin-left: 20px;
+}
+		
